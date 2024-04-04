@@ -1,0 +1,21 @@
+.image-25-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.map-popup-pc {
+  width: 791px;
+  position: relative;
+  height: 471px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+}

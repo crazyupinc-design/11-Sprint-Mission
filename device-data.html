@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./device-data.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto Sans KR:wght@400;500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open Sans:wght@400;600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="device-data">
+      <div class="device-data-content">
+        <div class="main3">
+          <div class="title3">
+            <div class="total-number3">
+              <div class="device-total-number1">전체 단말기 수 : 56,343</div>
+            </div>
+          </div>
+          <div class="info-title2">
+            <div class="text2">
+              <span>현재 </span>
+              <span class="n2">N</span>
+              <span
+                >개의 측정기에서 소음 및 진동을 측정 중입니다. 최근 30분간</span
+              >
+              <span class="n2"> N</span>
+              <span>개의 소음 및 진동을 감지하였습니다.</span>
+            </div>
+          </div>
+          <div class="content-wrapper">
+            <div class="device-info-wrapper">
+              <div class="device-info6">
+                <div class="icon11" id="iconContainer">
+                  <img class="frame-icon6" alt="" src="./public/frame.svg" />
+                </div>
+                <div class="info-category-wrapper">
+                  <b class="imei">IMEI : 000000000000</b>
+                  <b class="imei">S/N : 0000000</b>
+                  <b class="imei">마지막 데이터 수신 : 2000-00-00</b>
+                </div>
+              </div>
+            </div>
+            <div class="graph-area3">
+              <div class="graph3"></div>
+              <div class="graph-info">
+                <div class="data6">최소 : 00db / 최대 : 00db / 평균 : 00db</div>
+              </div>
+            </div>
+            <div class="graph4">Graph</div>
+          </div>
+          <div class="content1">
+            <div class="graph-area4">
+              <div class="graph5"></div>
+              <div class="graph-info1">
+                <div class="data7">진동 그래프(XYZ)</div>
+              </div>
+              <div class="graph6">Graph</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="mapPopupPc" class="popup-overlay" style="display: none">
+      <div class="map-popup-pc">
+        <img class="image-25-icon" alt="" src="./public/image-25@2x.png" />
+      </div>
+    </div>
+
+    <script>
+      var iconContainer = document.getElementById("iconContainer");
+      if (iconContainer) {
+        iconContainer.addEventListener("click", function () {
+          var popup = document.getElementById("mapPopupPc");
+          if (!popup) return;
+          var popupStyle = popup.style;
+          if (popupStyle) {
+            popupStyle.display = "flex";
+            popupStyle.zIndex = 100;
+            popupStyle.backgroundColor = "rgba(113, 113, 113, 0.3)";
+            popupStyle.alignItems = "center";
+            popupStyle.justifyContent = "center";
+          }
+          popup.setAttribute("closable", "");
+      
+          var onClick =
+            popup.onClick ||
+            function (e) {
+              if (e.target === popup && popup.hasAttribute("closable")) {
+                popupStyle.display = "none";
+              }
+            };
+          popup.addEventListener("click", onClick);
+        });
+      }
+      </script>
+  </body>
+</html>

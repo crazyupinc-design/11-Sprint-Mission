@@ -1,0 +1,319 @@
+.device-total-number1 {
+  position: relative;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+}
+.title3,
+.total-number3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.total-number3 {
+  align-items: center;
+  padding: var(--padding-11xs) 0;
+}
+.title3 {
+  align-self: stretch;
+  align-items: flex-start;
+  font-size: var(--font-size-2xl);
+}
+.n2 {
+  color: var(--color-orange-500);
+}
+.text2 {
+  flex: 1;
+  position: relative;
+}
+.info-title2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-13xl);
+  color: var(--color-dimgray);
+}
+.frame-icon6,
+.icon11 {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frame-icon6 {
+  width: 24px;
+  position: relative;
+  height: 24px;
+}
+.icon11 {
+  width: 53px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-green-500);
+  height: 53px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xl);
+  box-sizing: border-box;
+}
+.imei {
+  position: relative;
+}
+.device-info6,
+.info-category-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.info-category-wrapper {
+  align-self: stretch;
+  gap: 3px;
+}
+.device-info6 {
+  flex: 1;
+  gap: var(--gap-base);
+}
+.device-info-wrapper {
+  align-self: stretch;
+  background-color: var(--brand);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 22px;
+  z-index: 0;
+  color: var(--color-greyscale-0);
+}
+.data6,
+.graph3 {
+  position: relative;
+}
+.graph3 {
+  align-self: stretch;
+  background-color: var(--color-greyscale-100);
+  backdrop-filter: blur(10px);
+  height: 230px;
+}
+.data6 {
+  line-height: 26px;
+  white-space: pre-wrap;
+}
+.graph-area3,
+.graph-info {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.graph-area3 {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+  font-size: var(--font-size-base);
+}
+.graph4 {
+  width: 58px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% + 88.5px);
+  left: calc(50% - 29px);
+  font-size: var(--font-size-xl);
+  font-family: var(--font-inter);
+  display: inline-block;
+  z-index: 2;
+}
+.content-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  font-size: var(--font-size-3xl);
+}
+.content-wrapper,
+.data7,
+.graph5 {
+  position: relative;
+}
+.graph5 {
+  align-self: stretch;
+  background-color: var(--color-greyscale-100);
+  backdrop-filter: blur(10px);
+  height: 230px;
+  z-index: 0;
+}
+.data7 {
+  line-height: 26px;
+}
+.graph-info1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.graph6 {
+  width: 58px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 24px);
+  left: calc(50% - 29px);
+  font-size: var(--font-size-xl);
+  font-family: var(--font-inter);
+  display: inline-block;
+  z-index: 2;
+}
+.graph-area4 {
+  padding: var(--padding-3xs) 0;
+  position: relative;
+}
+.content1,
+.graph-area4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.main3 {
+  width: 100%;
+  height: 1018px;
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+  padding: var(--padding-5xl) var(--padding-17xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  max-width: 1400px;
+}
+.device-data,
+.device-data-content,
+.main3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.device-data-content {
+  align-self: stretch;
+  background-color: var(--color-greyscale-50);
+  align-items: center;
+}
+.device-data {
+  width: 100%;
+  position: relative;
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-greyscale-950);
+  font-family: var(--text-sm-medium);
+}
+@media screen and (max-width: 960px) {
+  .text2 {
+    text-align: left;
+  }
+}
+@media screen and (max-width: 526px) {
+  .info-title2 {
+    padding-bottom: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+  .imei {
+    font-size: var(--font-size-lg);
+  }
+  .device-info6 {
+    padding-bottom: var(--padding-base);
+    box-sizing: border-box;
+    flex: unset;
+    align-self: stretch;
+  }
+  .content-wrapper,
+  .device-info-wrapper {
+    flex-direction: column;
+  }
+  .content-wrapper {
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .content1 {
+    min-width: 320px;
+  }
+  .main3 {
+    gap: var(--gap-5xs);
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 400px) {
+  .device-total-number1 {
+    font-size: var(--font-size-base);
+  }
+  .title3 {
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .text2 {
+    font-size: var(--text-sm-medium-size);
+  }
+  .info-title2 {
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .imei {
+    font-size: var(--font-size-base);
+  }
+  .device-info6 {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .device-info-wrapper {
+    padding-left: var(--padding-base);
+    padding-right: var(--padding-base);
+    box-sizing: border-box;
+  }
+  .data6,
+  .data7 {
+    font-size: var(--font-size-smi);
+  }
+  .content1 {
+    gap: var(--gap-5xs);
+  }
+  .main3 {
+    padding-left: var(--padding-5xl);
+    padding-top: var(--padding-xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+  .device-data-content {
+    min-width: 320px;
+  }
+}
+.image-25-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.map-popup-pc {
+  width: 791px;
+  position: relative;
+  height: 471px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+}

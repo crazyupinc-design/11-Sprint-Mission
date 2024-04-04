@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./install-pc.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto Sans KR:wght@400;500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open Sans:wght@400;600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="install-pc">
+      <div class="div33">설치 정보 작성</div>
+      <div class="device-info-wrapper2">
+        <div class="device-info8">
+          <div class="imei-0000000000001">IMEI : 000000000000</div>
+          <div class="imei-0000000000001">S/N : 0000000</div>
+          <div class="imei-0000000000001">모델명 : 0000000</div>
+        </div>
+      </div>
+      <div class="div35">2024-04-03 12:38 에 설치되었습니다.</div>
+      <div class="wrapper-info-field1">
+        <div class="input-with-label9">
+          <div class="label13">고객 이름</div>
+          <input
+            class="input13"
+            placeholder="고객 이름을 입력하세요"
+            type="text"
+            maxlength="10"
+          />
+        </div>
+        <div class="input-with-label9">
+          <div class="label13">고객 주소</div>
+          <input
+            class="input13"
+            placeholder="고객 주소를 입력하세요"
+            type="text"
+            maxlength="10"
+          />
+        </div>
+        <div class="input-with-label9">
+          <div class="label13">고객 연락처</div>
+          <input
+            class="input13"
+            placeholder="고객 연락처를 입력하세요"
+            type="text"
+            maxlength="10"
+          />
+        </div>
+        <div class="input-with-label9">
+          <div class="label13">고객 이메일</div>
+          <input
+            class="input13"
+            placeholder="고객 이메일 입력하세요"
+            type="text"
+            maxlength="10"
+          />
+        </div>
+        <div class="wrapper-info-field-child">
+          <div class="frame-child2"></div>
+        </div>
+        <div class="input-with-label9">
+          <div class="label13">단말기 이름</div>
+          <input
+            class="input13"
+            placeholder="단말기 이름을 입력하세요"
+            type="text"
+            maxlength="10"
+          />
+        </div>
+        <div class="input-with-label9">
+          <div class="label13">수용가 번호</div>
+          <input
+            class="input13"
+            placeholder="수용가 번호를 입력하세요"
+            type="text"
+            maxlength="10"
+          />
+        </div>
+        <div class="input-with-label9">
+          <div class="label13">설치자 아이디</div>
+          <input
+            class="input19"
+            value="worker@gmail.com"
+            placeholder="Placeholder"
+            type="email"
+            disabled
+          />
+        </div>
+        <div class="input-with-label9">
+          <div class="label13">설치자 이름</div>
+          <input
+            class="input19"
+            value="worker"
+            placeholder="Placeholder"
+            type="text"
+            disabled
+          />
+        </div>
+        <div class="input-with-label9">
+          <div class="label13">설치자 연락처</div>
+          <input
+            class="input21"
+            value="01012345678"
+            placeholder="Placeholder"
+            type="tel"
+            disabled
+          />
+        </div>
+      </div>
+      <div class="link-button12" id="popuplinkButtonContainer">
+        <div class="div36">설치 정보 저장</div>
+      </div>
+    </div>
+
+    <script>
+      var popuplinkButtonContainer = document.getElementById(
+        "popuplinkButtonContainer"
+      );
+      if (popuplinkButtonContainer) {
+        popuplinkButtonContainer.addEventListener("click", function (e) {
+          window.location.href = "./device-data.html";
+        });
+      }
+      </script>
+  </body>
+</html>

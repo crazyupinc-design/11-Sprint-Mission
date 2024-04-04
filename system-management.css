@@ -1,0 +1,140 @@
+.notification-settings1 {
+  position: relative;
+  font-weight: 500;
+}
+.notification-settings,
+.title2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0;
+}
+.title2 {
+  align-self: stretch;
+  padding: 0 var(--padding-11xs);
+}
+.text1 {
+  flex: 1;
+  position: relative;
+}
+.info-title1,
+.title-wrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.info-title1 {
+  flex-direction: row;
+  padding: var(--padding-11xs);
+  font-size: var(--font-size-base);
+  color: var(--color-greyscale-600);
+}
+.title-wrapper {
+  flex-direction: column;
+  gap: var(--gap-7xs);
+  font-size: 23px;
+  color: var(--color-greyscale-950);
+  font-family: var(--text-sm-medium);
+}
+.email,
+.icon9 {
+  position: absolute;
+  top: 13px;
+  left: 7.7px;
+  width: 13px;
+  height: 13px;
+}
+.email {
+  height: 20.51%;
+  width: 87.87%;
+  top: 35.9%;
+  left: 11.04%;
+  letter-spacing: 0.03em;
+  line-height: 11px;
+  display: inline-block;
+}
+.check-box {
+  width: 230px;
+  position: relative;
+  background-color: var(--color-greyscale-0);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+  height: 39px;
+}
+.main2 {
+  width: 100%;
+  flex: 1;
+  overflow: hidden;
+  align-items: flex-start;
+  padding: var(--padding-5xl) var(--padding-17xl);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  max-width: 1400px;
+}
+.main2,
+.system-management,
+.system-management-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.system-management-content {
+  align-self: stretch;
+  flex: 1;
+  background-color: var(--color-greyscale-50);
+  align-items: center;
+}
+.system-management {
+  width: 100%;
+  position: relative;
+  height: 909px;
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  font-family: var(--font-open-sans);
+}
+@media screen and (max-width: 526px) {
+  .title2 {
+    padding-left: 0;
+    padding-top: 0;
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .text1 {
+    text-align: left;
+  }
+  .main2 {
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 400px) {
+  .notification-settings1 {
+    font-size: var(--font-size-base);
+  }
+  .title2 {
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .text1 {
+    font-size: var(--font-size-smi);
+    text-align: left;
+  }
+  .check-box {
+    align-self: stretch;
+    width: auto;
+  }
+  .main2 {
+    padding-left: var(--padding-5xl);
+    padding-top: var(--padding-xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+  .system-management-content {
+    min-width: 370px;
+  }
+}
