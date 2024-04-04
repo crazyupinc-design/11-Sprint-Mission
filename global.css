@@ -29,6 +29,7 @@ body {
   /* Colors */
   --color-greyscale-500: #949494;
   --color-greyscale-600: #757575;
+  --color-greyscale-900: #1f1f1f;
   --color-greyscale-950: #0f0f0f;
   --color-gray-100: rgba(255, 255, 255, 0);
   --color-greyscale-0: #fff;
@@ -52,6 +53,7 @@ body {
   --gap-base: 16px;
   --gap-7xs: 6px;
   --gap-11xs: 2px;
+  --gap-10xs: 3px;
   --gap-13xl: 32px;
   --gap-81xl: 100px;
 
@@ -69,6 +71,7 @@ body {
   --padding-7xl: 26px;
   --padding-sm: 14px;
   --padding-2xs: 11px;
+  --padding-xs: 12px;
 
   /* Border radiuses */
   --br-5xs: 8px;

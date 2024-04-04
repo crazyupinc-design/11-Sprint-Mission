@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./navigation-drawer.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto Sans KR:wght@400;500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open Sans:wght@400;600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="navigation-drawer" data-animate-on-scroll>
+      <div class="top">
+        <div class="rnslab-logo-parent">
+          <img
+            class="rnslab-logo-icon"
+            alt=""
+            src="./public/rnslab-logo@2x.png"
+          />
+
+          <div class="site-name">층간 소음/진동 측정 시스템</div>
+        </div>
+        <div class="my-info">
+          <div class="id-area">
+            <img class="profile-icon" alt="" src="./public/profileicon.svg" />
+
+            <div class="abcdabcdabcdacbdgmailcom">
+              abcdabcdabcdacbd@gmail.com
+            </div>
+          </div>
+          <div class="alias">
+            <div class="div37">
+              서울시 강동구 고덕동 래미안 2단지 관리사무소 사무소장
+            </div>
+          </div>
+        </div>
+        <div class="top-child"></div>
+        <div class="nav-item-parent">
+          <div class="nav-item" id="drawernavItemContainer">
+            <div class="left">
+              <b class="b2">대시보드</b>
+            </div>
+          </div>
+          <div class="nav-item1" id="drawernavItemContainer1">
+            <div class="left">
+              <b class="b2">기기 목록</b>
+            </div>
+          </div>
+          <div class="nav-item1" id="drawernavItemContainer2">
+            <div class="left">
+              <b class="b2">시스템 관리</b>
+            </div>
+          </div>
+        </div>
+        <div class="alias-parent">
+          <div class="alias1">
+            <div class="div38">로그아웃</div>
+          </div>
+          <img class="frame-icon7" alt="" src="./public/frame.svg" />
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var drawernavItemContainer = document.getElementById("drawernavItemContainer");
+      if (drawernavItemContainer) {
+        drawernavItemContainer.addEventListener("click", function (e) {
+          window.location.href = "./dashboard.html";
+        });
+      }
+      
+      var drawernavItemContainer1 = document.getElementById(
+        "drawernavItemContainer1"
+      );
+      if (drawernavItemContainer1) {
+        drawernavItemContainer1.addEventListener("click", function (e) {
+          window.location.href = "./device-list.html";
+        });
+      }
+      
+      var drawernavItemContainer2 = document.getElementById(
+        "drawernavItemContainer2"
+      );
+      if (drawernavItemContainer2) {
+        drawernavItemContainer2.addEventListener("click", function (e) {
+          window.location.href = "./system-management.html";
+        });
+      }
+      var scrollAnimElements = document.querySelectorAll("[data-animate-on-scroll]");
+      var observer = new IntersectionObserver(
+        (entries) => {
+          for (const entry of entries) {
+            if (entry.isIntersecting || entry.intersectionRatio > 0) {
+              const targetElement = entry.target;
+              targetElement.classList.add("animate");
+              observer.unobserve(targetElement);
+            }
+          }
+        },
+        {
+          threshold: 0.15,
+        }
+      );
+      
+      for (let i = 0; i < scrollAnimElements.length; i++) {
+        observer.observe(scrollAnimElements[i]);
+      }
+      </script>
+  </body>
+</html>

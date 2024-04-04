@@ -68,7 +68,7 @@
 }
 .info-category-wrapper {
   align-self: stretch;
-  gap: 3px;
+  gap: var(--gap-10xs);
 }
 .device-info6 {
   flex: 1;
