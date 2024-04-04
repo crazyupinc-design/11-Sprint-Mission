@@ -8,19 +8,19 @@
     opacity: 1;
   }
 }
-.rnslab-logo-icon {
+.rnslab-logo-icon1 {
   width: 150px;
   position: relative;
   height: 40.1px;
   object-fit: cover;
 }
-.site-name {
+.site-name1 {
   position: relative;
   letter-spacing: 0.03em;
   line-height: 18px;
   font-weight: 500;
 }
-.rnslab-logo-parent {
+.rnslab-logo-group {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,95 +28,104 @@
   gap: var(--gap-5xs);
   color: var(--brand);
 }
-.profile-icon {
+.profile-icon1 {
   width: 24px;
   position: relative;
   height: 24px;
   overflow: hidden;
   flex-shrink: 0;
 }
-.abcdabcdabcdacbdgmailcom {
+.kiban18gmailcom {
   flex: 1;
   position: relative;
   letter-spacing: -0.01em;
   line-height: 12px;
   font-weight: 500;
 }
-.div37,
-.id-area {
-  align-self: stretch;
-}
-.id-area {
+.id-area1 {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
   gap: var(--gap-10xs);
+  font-size: var(--text-sm-medium-size);
 }
-.div37 {
+.alias2,
+.div39,
+.id-area1 {
+  align-self: stretch;
+}
+.div39 {
   position: relative;
   letter-spacing: -0.03em;
   line-height: 18px;
   font-weight: 500;
 }
-.alias,
-.my-info {
-  align-self: stretch;
+.alias2 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  font-size: var(--font-size-smi);
   color: var(--color-greyscale-600);
 }
-.my-info {
-  align-items: center;
-  justify-content: center;
+.div40 {
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 18px;
+  font-weight: 500;
+  color: var(--color-black);
+}
+.my-info1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
   padding: 0 var(--padding-xs);
   gap: var(--gap-7xs);
-  font-size: var(--text-sm-medium-size);
+  font-size: var(--font-size-smi);
   color: var(--color-greyscale-900);
 }
-.b2,
-.top-child {
+.b5,
+.top-item {
   position: relative;
 }
-.top-child {
+.top-item {
   align-self: stretch;
   border-top: 1px solid var(--color-aliceblue);
   box-sizing: border-box;
   height: 1px;
 }
-.b2 {
+.b5 {
   flex: 1;
   letter-spacing: -0.01em;
   line-height: 24px;
 }
-.left,
-.nav-item {
+.left3,
+.nav-item3 {
   flex-direction: row;
   align-items: center;
 }
-.left {
+.left3 {
   flex: 1;
   display: flex;
   justify-content: flex-start;
 }
-.nav-item {
+.nav-item3 {
   background-color: var(--brand);
   padding: var(--padding-xs) var(--padding-5xl);
   box-sizing: border-box;
   cursor: pointer;
   color: var(--color-greyscale-0);
 }
-.nav-item,
-.nav-item-parent,
-.nav-item1 {
+.nav-item-group,
+.nav-item3,
+.nav-item4 {
   width: 268px;
   display: flex;
   justify-content: flex-start;
 }
-.nav-item1 {
+.nav-item4 {
   border-radius: var(--br-5xs);
   flex-direction: row;
   align-items: center;
@@ -124,34 +133,33 @@
   box-sizing: border-box;
   cursor: pointer;
 }
-.nav-item-parent {
-  height: 160px;
+.nav-item-group {
   flex-direction: column;
   align-items: flex-start;
   gap: var(--gap-5xs);
 }
-.div38 {
+.div41 {
   position: relative;
   letter-spacing: -0.03em;
   line-height: 18px;
   font-weight: 500;
 }
-.alias1 {
+.alias3 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.frame-icon7 {
+.frame-icon8 {
   width: 22px;
   position: relative;
   height: 22px;
   overflow: hidden;
   flex-shrink: 0;
 }
-.alias-parent {
-  align-self: stretch;
-  display: flex;
+.alias-group {
+  width: 268px;
+  display: none;
   flex-direction: row;
   align-items: center;
   justify-content: center;
@@ -159,26 +167,26 @@
   text-align: center;
   font-size: var(--font-size-smi);
 }
-.navigation-drawer,
-.top {
+.navigation-drawer1,
+.top1 {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
-.top {
+.top1 {
   width: 268px;
   align-items: center;
   gap: var(--gap-7xl);
 }
-.navigation-drawer {
+.navigation-drawer1 {
   width: 300px;
+  height: 100%;
   position: relative;
   background-color: var(--color-greyscale-0);
   align-items: flex-start;
   padding: var(--padding-5xl) var(--padding-base);
   box-sizing: border-box;
   opacity: 0;
-  height: 100%;
   max-width: 90%;
   overflow: auto;
   text-align: left;
@@ -186,6 +194,6 @@
   color: var(--color-greyscale-400);
   font-family: var(--text-sm-medium);
 }
-.navigation-drawer.animate {
+.navigation-drawer1.animate {
   animation: 0.25s ease 0s 1 normal forwards slide-in-left;
 }
