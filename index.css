@@ -147,9 +147,15 @@
   justify-content: flex-start;
   padding: 0 var(--padding-17xl);
 }
+.icon,
+.xxxxx {
+  position: relative;
+}
+.xxxxx {
+  font-weight: 500;
+}
 .icon {
   width: 24px;
-  position: relative;
   height: 24px;
   overflow: hidden;
   flex-shrink: 0;
@@ -311,6 +317,22 @@
   }
   .number-of-data {
     gap: 6px 8px;
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+  .xxxxx {
+    font-size: var(--text-sm-medium-size);
+  }
+  .device-list,
+  .link-button {
+    padding-left: var(--padding-base);
+    padding-right: var(--padding-base);
+    box-sizing: border-box;
+  }
+  .device-list {
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
   }
   .noisevibrations-card {
     gap: 8px 16px;
@@ -328,7 +350,7 @@
     gap: 24px 36px;
     padding-left: 0;
     padding-right: 0;
-    min-width: 320px;
+    min-width: 280px;
   }
   .main {
     padding-left: var(--padding-5xl);

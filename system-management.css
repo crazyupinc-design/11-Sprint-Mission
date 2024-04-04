@@ -3,29 +3,29 @@
   font-weight: 500;
 }
 .notification-settings,
-.title2 {
+.title3 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
   padding: var(--padding-11xs) 0;
 }
-.title2 {
+.title3 {
   align-self: stretch;
   padding: 0 var(--padding-11xs);
 }
-.text1 {
+.text2 {
   flex: 1;
   position: relative;
 }
-.info-title1,
+.info-title2,
 .title-wrapper {
   align-self: stretch;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.info-title1 {
+.info-title2 {
   flex-direction: row;
   padding: var(--padding-11xs);
   font-size: var(--font-size-base);
@@ -39,7 +39,7 @@
   font-family: var(--text-sm-medium);
 }
 .email,
-.icon9 {
+.icon10 {
   position: absolute;
   top: 13px;
   left: 7.7px;
@@ -48,21 +48,31 @@
 }
 .email {
   height: 20.51%;
-  width: 87.87%;
+  width: 75.17%;
   top: 35.9%;
-  left: 11.04%;
+  left: 24.63%;
   letter-spacing: 0.03em;
   line-height: 11px;
   display: inline-block;
 }
 .check-box {
-  width: 230px;
+  width: 149px;
   position: relative;
   background-color: var(--color-greyscale-0);
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
   height: 39px;
 }
-.main2 {
+.sms {
+  position: absolute;
+  height: 20.51%;
+  width: 23.89%;
+  top: 35.9%;
+  left: 24.63%;
+  letter-spacing: 0.03em;
+  line-height: 11px;
+  display: inline-block;
+}
+.main3 {
   width: 100%;
   flex: 1;
   overflow: hidden;
@@ -72,7 +82,7 @@
   gap: var(--gap-base);
   max-width: 1400px;
 }
-.main2,
+.main3,
 .system-management,
 .system-management-content {
   display: flex;
@@ -96,16 +106,16 @@
   font-family: var(--font-open-sans);
 }
 @media screen and (max-width: 526px) {
-  .title2 {
+  .title3 {
     padding-left: 0;
     padding-top: 0;
     padding-right: var(--padding-21xl);
     box-sizing: border-box;
   }
-  .text1 {
+  .text2 {
     text-align: left;
   }
-  .main2 {
+  .main3 {
     padding-left: var(--padding-5xl);
     padding-right: var(--padding-5xl);
     box-sizing: border-box;
@@ -115,12 +125,12 @@
   .notification-settings1 {
     font-size: var(--font-size-base);
   }
-  .title2 {
+  .title3 {
     padding-left: 0;
     padding-right: 0;
     box-sizing: border-box;
   }
-  .text1 {
+  .text2 {
     font-size: var(--font-size-smi);
     text-align: left;
   }
@@ -128,7 +138,7 @@
     align-self: stretch;
     width: auto;
   }
-  .main2 {
+  .main3 {
     padding-left: var(--padding-5xl);
     padding-top: var(--padding-xl);
     padding-right: var(--padding-5xl);
