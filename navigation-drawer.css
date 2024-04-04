@@ -1,13 +1,4 @@
-@keyframes slide-in-left {
-  0% {
-    transform: translateX(-200px);
-    opacity: 0;
-  }
-  to {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
+
 .rnslab-logo-icon {
   width: 150px;
   position: relative;
@@ -186,14 +177,11 @@
   align-items: flex-start;
   padding: var(--padding-5xl) var(--padding-base);
   box-sizing: border-box;
-  opacity: 0;
+  /* opacity: 0; */
   max-width: 90%;
-  overflow: auto;
+  overflow: none;
   text-align: left;
   font-size: var(--font-size-base);
   color: var(--color-greyscale-400);
   font-family: var(--text-sm-medium);
-}
-.navigation-drawer.animate {
-  animation: 0.25s ease 0s 1 normal forwards slide-in-left;
 }
