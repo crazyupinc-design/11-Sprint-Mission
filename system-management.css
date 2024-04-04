@@ -134,10 +134,6 @@
     font-size: var(--font-size-smi);
     text-align: left;
   }
-  .check-box {
-    align-self: stretch;
-    width: auto;
-  }
   .main3 {
     padding-left: var(--padding-5xl);
     padding-top: var(--padding-xl);
