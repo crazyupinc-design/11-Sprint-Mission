@@ -1,4 +1,4 @@
-.div28 {
+.div37 {
   width: 124px;
   letter-spacing: 0.03em;
   line-height: 11px;
@@ -8,22 +8,22 @@
   height: 13px;
   flex-shrink: 0;
 }
-.div28,
+.div37,
 .fw {
   position: relative;
 }
-.device-info-wrapper1,
-.device-info7 {
+.device-info-wrapper,
+.device-info6 {
   display: flex;
   justify-content: flex-start;
 }
-.device-info7 {
+.device-info6 {
   flex: 1;
   flex-direction: column;
   align-items: flex-start;
   gap: var(--gap-11xs);
 }
-.device-info-wrapper1 {
+.device-info-wrapper {
   align-self: stretch;
   background-color: var(--color-darkslateblue);
   backdrop-filter: blur(12px);
@@ -33,11 +33,11 @@
   padding: var(--padding-2xs) var(--padding-5xl);
   color: var(--color-greyscale-500);
 }
-.div30,
+.div39,
 .label2 {
   position: relative;
 }
-.div30 {
+.div39 {
   align-self: stretch;
   font-size: var(--text-sm-medium-size);
   color: var(--color-greyscale-500);
@@ -169,7 +169,7 @@
   gap: var(--gap-5xs);
   font-size: var(--text-sm-medium-size);
 }
-.div31 {
+.div40 {
   position: relative;
   font-weight: 500;
 }

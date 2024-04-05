@@ -1,14 +1,11 @@
-.image-25-icon {
-  align-self: stretch;
+.image-25-icon1 {
+  width: 791px;
   flex: 1;
   position: relative;
-  max-width: 100%;
-  overflow: hidden;
   max-height: 100%;
   object-fit: cover;
 }
 .map-popup-pc {
-  width: 791px;
   position: relative;
   height: 471px;
   display: flex;

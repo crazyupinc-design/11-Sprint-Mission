@@ -41,10 +41,10 @@ body {
   --color-greyscale-800: #3b3b3b;
   --color-sandybrown: #ffa361;
   --color-greyscale-400: #a8a8a8;
-  --color-green-500: #2dce89;
-  --color-dimgray: #595959;
   --color-plum: #c8b5ed;
   --color-darkslateblue: rgba(0, 56, 125, 0.1);
+  --color-green-500: #2dce89;
+  --color-dimgray: #595959;
 
   /* Gaps */
   --gap-5xs: 8px;
@@ -52,9 +52,9 @@ body {
   --gap-base: 16px;
   --gap-7xs: 6px;
   --gap-11xs: 2px;
-  --gap-10xs: 3px;
   --gap-13xl: 32px;
-  --gap-81xl: 100px;
+  --gap-10xs: 3px;
+  --gap-41xl: 60px;
 
   /* Paddings */
   --padding-5xl: 24px;
@@ -71,6 +71,7 @@ body {
   --padding-sm: 14px;
   --padding-2xs: 11px;
   --padding-xs: 12px;
+  --padding-7xs: 6px;
 
   /* Border radiuses */
   --br-5xs: 8px;

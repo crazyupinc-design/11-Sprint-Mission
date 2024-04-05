@@ -1,14 +1,22 @@
-.div33 {
+.div44 {
   width: 124px;
+  position: relative;
   letter-spacing: 0.03em;
   line-height: 11px;
   font-weight: 500;
-  text-align: center;
   display: inline-block;
   height: 13px;
   flex-shrink: 0;
 }
-.div33,
+.title3 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 600px;
+  text-align: center;
+}
 .imei-0000000000001 {
   position: relative;
 }
@@ -24,29 +32,37 @@
   gap: var(--gap-11xs);
 }
 .device-info-wrapper2 {
-  align-self: stretch;
+  width: 100%;
   background-color: var(--color-darkslateblue);
   backdrop-filter: blur(12px);
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   padding: var(--padding-2xs) var(--padding-5xl);
+  box-sizing: border-box;
+  max-width: 600px;
   color: var(--color-greyscale-500);
 }
-.div35,
-.label13 {
+.div46 {
+  flex: 1;
   position: relative;
 }
-.div35 {
-  align-self: stretch;
+.info {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 600px;
   font-size: var(--text-sm-medium-size);
   color: var(--color-greyscale-500);
 }
-.label13 {
+.label11 {
+  position: relative;
   line-height: 20px;
   font-weight: 500;
 }
-.input13 {
+.input11 {
   border: 1px solid var(--color-greyscale-400);
   outline: 0;
   background-color: var(--color-greyscale-0);
@@ -62,16 +78,16 @@
   font-size: var(--text-sm-medium-size);
   color: var(--color-greyscale-400);
 }
-.input13:hover {
+.input11:hover {
   border: 1px solid var(--color-greyscale-600);
   box-sizing: border-box;
 }
-.input13:disabled {
+.input11:disabled {
   background-color: var(--color-greyscale-50);
   border: 1px solid var(--color-greyscale-300);
   box-sizing: border-box;
 }
-.input13:focus {
+.input11:focus {
   border: 1px solid var(--brand);
   box-sizing: border-box;
   box-shadow: 0 0 0 3px rgba(0, 146, 204, 0.1);
@@ -84,7 +100,7 @@
   justify-content: flex-start;
   gap: var(--gap-7xs);
 }
-.frame-child2 {
+.frame-child1 {
   width: 270px;
   position: relative;
   border-top: 2px solid var(--color-greyscale-100);
@@ -92,28 +108,66 @@
   height: 2px;
   display: none;
 }
-.input19,
 .wrapper-info-field-child {
   align-self: stretch;
-  display: flex;
-  align-items: center;
-}
-.wrapper-info-field-child {
   height: 16px;
+  display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
-.input19 {
+.input-with-label14 {
+  width: 600px;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.input17 {
   border: 1px solid var(--color-greyscale-400);
   outline: 0;
   font-family: var(--text-sm-medium);
   font-size: var(--text-sm-medium-size);
   background-color: var(--color-greyscale-100);
+  align-self: stretch;
   border-radius: var(--br-11xs);
   overflow: hidden;
+  display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: flex-start;
   padding: var(--padding-3xs) var(--padding-sm);
+  color: var(--color-greyscale-400);
+}
+.input17:hover {
+  border: 1px solid var(--color-greyscale-600);
+  box-sizing: border-box;
+}
+.input17:disabled {
+  background-color: var(--color-greyscale-50);
+  border: 1px solid var(--color-greyscale-300);
+  box-sizing: border-box;
+}
+.input17:focus {
+  border: 1px solid var(--brand);
+  box-sizing: border-box;
+  box-shadow: 0 0 0 3px rgba(0, 146, 204, 0.1);
+}
+.input19 {
+  border: 1px solid var(--color-greyscale-400);
+  outline: 0;
+  background-color: var(--color-greyscale-100);
+  align-self: stretch;
+  border-radius: var(--br-11xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-sm);
+  font-family: var(--text-sm-medium);
+  font-size: var(--text-sm-medium-size);
   color: var(--color-greyscale-400);
 }
 .input19:hover {
@@ -130,75 +184,48 @@
   box-sizing: border-box;
   box-shadow: 0 0 0 3px rgba(0, 146, 204, 0.1);
 }
-.input21 {
-  border: 1px solid var(--color-greyscale-400);
-  outline: 0;
-  background-color: var(--color-greyscale-100);
-  align-self: stretch;
-  border-radius: var(--br-11xs);
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  padding: var(--padding-3xs) var(--padding-sm);
-  font-family: var(--text-sm-medium);
-  font-size: var(--text-sm-medium-size);
-  color: var(--color-greyscale-400);
-}
-.input21:hover {
-  border: 1px solid var(--color-greyscale-600);
-  box-sizing: border-box;
-}
-.input21:disabled {
-  background-color: var(--color-greyscale-50);
-  border: 1px solid var(--color-greyscale-300);
-  box-sizing: border-box;
-}
-.input21:focus {
-  border: 1px solid var(--brand);
-  box-sizing: border-box;
-  box-shadow: 0 0 0 3px rgba(0, 146, 204, 0.1);
-}
 .wrapper-info-field1 {
-  align-self: stretch;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   gap: var(--gap-5xs);
+  max-width: 600px;
   font-size: var(--text-sm-medium-size);
 }
-.div36 {
+.div47 {
   position: relative;
   font-weight: 500;
 }
 .install-pc,
-.link-button12 {
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+.link-button11 {
   display: flex;
-  align-items: center;
   box-sizing: border-box;
 }
-.link-button12 {
-  width: 187px;
+.link-button11 {
+  width: 100%;
   border-radius: var(--br-11xs);
   background-color: var(--brand);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
   height: 36px;
   flex-direction: row;
+  align-items: center;
   justify-content: center;
   padding: var(--padding-5xs) var(--padding-17xl);
+  max-width: 600px;
   cursor: pointer;
   text-align: center;
   color: var(--color-greyscale-0);
 }
 .install-pc {
-  width: 784px;
+  width: 1920px;
   position: relative;
   background-color: var(--color-greyscale-0);
   flex-direction: column;
+  align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-11xl) var(--padding-7xl);
+  padding: var(--padding-11xl) 0 var(--padding-11xl) var(--padding-5xl);
   gap: var(--gap-13xl);
   max-width: 90%;
   max-height: 90%;

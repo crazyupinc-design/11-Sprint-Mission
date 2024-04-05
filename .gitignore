@@ -19,23 +19,3 @@ Desktop.ini # Windows desktop icon settings
 
 # Others
 *.log   # Log files
-
-# Compiled output
-/dist
-/dist-server
-/tmp
-/out-tsc
-/bazel-out
-
-# Node
-/node_modules
-npm-debug.log
-yarn-error.log
-
-# Visual Studio Code
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-.history/*

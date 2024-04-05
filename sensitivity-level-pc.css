@@ -1,18 +1,21 @@
-.b1,
-.label11 {
+.imei-0000000000002 {
   position: relative;
-  display: inline-block;
-  flex-shrink: 0;
-}
-.b1 {
-  width: 124px;
   letter-spacing: 0.03em;
   line-height: 11px;
-  height: 13px;
 }
-.label11 {
+.imei-000000000000-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.label20 {
   width: 26px;
+  position: relative;
   line-height: 20px;
+  display: inline-block;
+  flex-shrink: 0;
 }
 .rectangle-div {
   position: absolute;
@@ -37,14 +40,14 @@
   position: relative;
   height: 24px;
 }
-.input11 {
+.input20 {
   border: 1px solid var(--color-greyscale-400);
   outline: 0;
   font-family: var(--text-sm-medium);
   font-size: var(--font-size-base);
   background-color: var(--color-greyscale-0);
   height: 36px;
-  width: 59px;
+  width: 100px;
   border-radius: var(--br-5xs);
   box-sizing: border-box;
   overflow: hidden;
@@ -53,108 +56,88 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding: var(--padding-3xs) var(--padding-sm);
+  padding: var(--padding-3xs) var(--padding-5xl);
   color: var(--color-greyscale-600);
 }
-.input11:hover {
+.input20:hover {
   border: 1px solid var(--color-greyscale-600);
   box-sizing: border-box;
 }
-.input11:disabled {
+.input20:disabled {
   background-color: var(--color-greyscale-50);
   border: 1px solid var(--color-greyscale-300);
   box-sizing: border-box;
 }
-.input11:focus {
-  border: 1px solid var(--color-plum);
+.input20:focus {
+  border: 1px solid var(--brand);
   box-sizing: border-box;
-  box-shadow: 0 0 0 3px #f4ebff;
+  box-shadow: 0 0 0 3px rgba(0, 146, 204, 0.1);
 }
-.frame-div {
+.group-parent1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   gap: var(--gap-7xs);
 }
-.frame-div,
-.input12,
+.level-input-wrapper1,
 .noise1 {
+  align-self: stretch;
   display: flex;
+}
+.noise1 {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-}
-.noise1 {
-  align-self: stretch;
   padding: 0 var(--padding-5xl);
-  gap: var(--gap-81xl);
-}
-.input12 {
-  border: 1px solid var(--color-greyscale-400);
-  outline: 0;
-  font-family: var(--text-sm-medium);
-  font-size: var(--font-size-base);
-  background-color: var(--color-greyscale-0);
-  height: 36px;
-  width: 62px;
-  border-radius: var(--br-5xs);
-  box-sizing: border-box;
-  overflow: hidden;
-  flex-shrink: 0;
-  padding: var(--padding-3xs) var(--padding-sm);
-  color: var(--color-greyscale-600);
-}
-.input12:hover {
-  border: 1px solid var(--color-greyscale-600);
-  box-sizing: border-box;
-}
-.input12:disabled {
-  background-color: var(--color-greyscale-50);
-  border: 1px solid var(--color-greyscale-300);
-  box-sizing: border-box;
-}
-.input12:focus {
-  border: 1px solid var(--color-plum);
-  box-sizing: border-box;
-  box-shadow: 0 0 0 3px #f4ebff;
+  gap: var(--gap-41xl);
 }
 .level-input-wrapper1 {
-  align-self: stretch;
-  display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-start;
   gap: var(--gap-13xl);
   text-align: left;
 }
-.div32 {
+.div48 {
   position: relative;
   font-weight: 500;
 }
-.link-button11,
-.sensitivity-level-pc {
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-sizing: border-box;
-}
-.link-button11 {
-  width: 187px;
+.link-button12 {
+  align-self: stretch;
   border-radius: var(--br-11xs);
   background-color: var(--brand);
-  height: 36px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+  display: flex;
   flex-direction: row;
-  padding: var(--padding-5xs) var(--padding-17xl);
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) 0;
+  box-sizing: border-box;
+  min-width: 250px;
   cursor: pointer;
   font-size: var(--font-size-base);
   color: var(--color-greyscale-0);
 }
+.frame-parent,
 .sensitivity-level-pc {
-  width: 474px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent {
+  width: 100%;
+  gap: 50px;
+  max-width: 400px;
+}
+.sensitivity-level-pc {
+  width: 1920px;
   position: relative;
   background-color: var(--color-greyscale-0);
-  height: 366px;
-  flex-direction: column;
-  padding: var(--padding-11xl) var(--padding-17xl);
-  gap: 50px;
+  height: 960px;
+  padding: var(--padding-11xl) 0 var(--padding-11xl) var(--padding-5xl);
+  box-sizing: border-box;
   max-width: 90%;
   max-height: 90%;
   overflow: auto;
