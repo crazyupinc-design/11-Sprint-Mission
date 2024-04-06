@@ -1,4 +1,4 @@
-.imei-0000000000002 {
+.imei-0000000000001 {
   position: relative;
   letter-spacing: 0.03em;
   line-height: 11px;
@@ -10,7 +10,7 @@
   align-items: flex-start;
   justify-content: center;
 }
-.label20 {
+.label11 {
   width: 26px;
   position: relative;
   line-height: 20px;
@@ -40,7 +40,7 @@
   position: relative;
   height: 24px;
 }
-.input20 {
+.input11 {
   border: 1px solid var(--color-greyscale-400);
   outline: 0;
   font-family: var(--text-sm-medium);
@@ -59,16 +59,16 @@
   padding: var(--padding-3xs) var(--padding-5xl);
   color: var(--color-greyscale-600);
 }
-.input20:hover {
+.input11:hover {
   border: 1px solid var(--color-greyscale-600);
   box-sizing: border-box;
 }
-.input20:disabled {
+.input11:disabled {
   background-color: var(--color-greyscale-50);
   border: 1px solid var(--color-greyscale-300);
   box-sizing: border-box;
 }
-.input20:focus {
+.input11:focus {
   border: 1px solid var(--brand);
   box-sizing: border-box;
   box-shadow: 0 0 0 3px rgba(0, 146, 204, 0.1);
@@ -99,11 +99,11 @@
   gap: var(--gap-13xl);
   text-align: left;
 }
-.div48 {
+.div44 {
   position: relative;
   font-weight: 500;
 }
-.link-button12 {
+.link-button11 {
   align-self: stretch;
   border-radius: var(--br-11xs);
   background-color: var(--brand);

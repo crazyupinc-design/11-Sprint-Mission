@@ -3,14 +3,14 @@
   font-weight: 500;
 }
 .notification-settings,
-.title4 {
+.title3 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
   padding: var(--padding-11xs) 0;
 }
-.title4 {
+.title3 {
   align-self: stretch;
   padding: 0 var(--padding-11xs);
 }
@@ -118,7 +118,7 @@
   font-family: var(--text-sm-medium);
 }
 @media screen and (max-width: 526px) {
-  .title4 {
+  .title3 {
     padding-left: 0;
     padding-top: 0;
     padding-right: var(--padding-21xl);
@@ -137,7 +137,7 @@
   .notification-settings1 {
     font-size: var(--font-size-base);
   }
-  .title4 {
+  .title3 {
     padding-left: 0;
     padding-right: 0;
     box-sizing: border-box;
