@@ -44,7 +44,8 @@ body {
   --color-plum: #c8b5ed;
   --color-darkslateblue: rgba(0, 56, 125, 0.1);
   --color-green-500: #2dce89;
-  --color-dimgray: #595959;
+  --color-greyscale-700: #595959;
+  --color-aliceblue: #e6e9f0;
 
   /* Gaps */
   --gap-5xs: 8px;
@@ -70,8 +71,8 @@ body {
   --padding-7xl: 26px;
   --padding-sm: 14px;
   --padding-2xs: 11px;
-  --padding-xs: 12px;
   --padding-7xs: 6px;
+  --padding-xs: 12px;
 
   /* Border radiuses */
   --br-5xs: 8px;

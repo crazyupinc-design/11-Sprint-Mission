@@ -1,4 +1,4 @@
-.div45 {
+.div42 {
   width: 124px;
   position: relative;
   letter-spacing: 0.03em;
@@ -43,7 +43,7 @@
   max-width: 600px;
   color: var(--color-greyscale-500);
 }
-.div47 {
+.div44 {
   flex: 1;
   position: relative;
 }
@@ -247,7 +247,7 @@
   max-width: 600px;
   font-size: var(--text-sm-medium-size);
 }
-.div48 {
+.div45 {
   position: relative;
   font-weight: 500;
 }

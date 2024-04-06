@@ -32,14 +32,14 @@
   align-items: flex-start;
   justify-content: flex-start;
   padding: 0 0 var(--padding-13xl);
-  color: var(--color-dimgray);
+  color: var(--color-greyscale-700);
 }
-.frame-icon1,
+.frame-icon,
 .icon15 {
   overflow: hidden;
   flex-shrink: 0;
 }
-.frame-icon1 {
+.frame-icon {
   width: 24px;
   position: relative;
   height: 24px;
