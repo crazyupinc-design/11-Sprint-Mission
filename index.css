@@ -256,7 +256,7 @@
   }
   .content {
     flex-direction: column;
-    gap: 24px 36px;
+    gap: var(--gap-5xl);
   }
 }
 @media screen and (max-width: 960px) {
@@ -272,7 +272,7 @@
     width: auto;
     height: auto;
     flex-direction: column;
-    gap: 24px 36px;
+    gap: var(--gap-5xl);
     align-items: center;
     justify-content: center;
     min-width: 370px;
@@ -331,7 +331,7 @@
     font-size: var(--font-size-smi);
   }
   .number-of-data {
-    gap: 6px 8px;
+    gap: var(--gap-7xs);
     padding-left: var(--padding-5xl);
     padding-right: var(--padding-5xl);
     box-sizing: border-box;
@@ -356,7 +356,7 @@
   .noisevibrations-card {
     align-self: stretch;
     width: auto;
-    gap: 8px 16px;
+    gap: var(--gap-5xs);
     padding-top: var(--padding-xl);
     box-sizing: border-box;
     flex: unset;
@@ -367,7 +367,7 @@
   }
   .content {
     flex-direction: column;
-    gap: 24px 36px;
+    gap: var(--gap-5xl);
     padding-left: 0;
     padding-right: 0;
     min-width: 280px;
