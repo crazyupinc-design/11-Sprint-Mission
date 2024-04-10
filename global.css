@@ -29,6 +29,7 @@ body {
   /* Colors */
   --color-greyscale-500: #949494;
   --color-greyscale-600: #757575;
+  --color-gray-200: #1f1f1f;
   --color-greyscale-950: #0f0f0f;
   --color-gray-100: rgba(255, 255, 255, 0);
   --color-greyscale-0: #fff;

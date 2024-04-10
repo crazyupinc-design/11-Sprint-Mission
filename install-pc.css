@@ -1,4 +1,4 @@
-.div42 {
+.div53 {
   width: 124px;
   position: relative;
   letter-spacing: 0.03em;
@@ -8,7 +8,7 @@
   height: 13px;
   flex-shrink: 0;
 }
-.title4 {
+.title5 {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -43,7 +43,7 @@
   max-width: 600px;
   color: var(--color-greyscale-500);
 }
-.div44 {
+.div55 {
   flex: 1;
   position: relative;
 }
@@ -76,7 +76,7 @@
   padding: var(--padding-3xs) var(--padding-sm);
   font-family: var(--text-sm-medium);
   font-size: var(--text-sm-medium-size);
-  color: var(--color-greyscale-400);
+  color: var(--color-gray-200);
 }
 .input13:hover {
   border: 1px solid var(--color-greyscale-600);
@@ -136,7 +136,7 @@
   padding: var(--padding-3xs) var(--padding-sm);
   font-family: var(--text-sm-medium);
   font-size: var(--text-sm-medium-size);
-  color: var(--color-greyscale-400);
+  color: var(--color-gray-200);
 }
 .input14:hover {
   border: 1px solid var(--color-greyscale-600);
@@ -160,7 +160,7 @@
   font-family: var(--font-inter);
   color: var(--color-greyscale-600);
 }
-.frame-child2 {
+.frame-child3 {
   width: 270px;
   position: relative;
   border-top: 2px solid var(--color-greyscale-100);
@@ -247,16 +247,16 @@
   max-width: 600px;
   font-size: var(--text-sm-medium-size);
 }
-.div45 {
+.div56 {
   position: relative;
   font-weight: 500;
 }
 .install-pc,
-.link-button12 {
+.link-button16 {
   display: flex;
   box-sizing: border-box;
 }
-.link-button12 {
+.link-button16 {
   width: 100%;
   border-radius: var(--br-11xs);
   background-color: var(--brand);
