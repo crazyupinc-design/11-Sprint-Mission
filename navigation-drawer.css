@@ -8,10 +8,10 @@
     opacity: 1;
   }
 }
-.rnslab-logo-icon {
-  width: 150px;
+.metainnotechlogo-1-icon {
+  width: 185px;
   position: relative;
-  height: 40.1px;
+  height: 113.8px;
   object-fit: cover;
 }
 .site-name {
@@ -20,7 +20,7 @@
   line-height: 18px;
   font-weight: 500;
 }
-.rnslab-logo-parent {
+.metainnotechlogo-1-parent {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -42,7 +42,7 @@
   line-height: 12px;
   font-weight: 500;
 }
-.div46,
+.div54,
 .id-area {
   align-self: stretch;
 }
@@ -54,7 +54,7 @@
   gap: var(--gap-10xs);
   font-size: var(--text-sm-medium-size);
 }
-.div46 {
+.div54 {
   position: relative;
   letter-spacing: -0.03em;
   line-height: 18px;
@@ -68,7 +68,7 @@
   justify-content: flex-start;
   color: var(--color-greyscale-600);
 }
-.div47 {
+.div55 {
   width: 47px;
   position: relative;
   letter-spacing: -0.03em;
@@ -178,7 +178,7 @@
   flex-direction: column;
   gap: var(--gap-5xs);
 }
-.div48 {
+.div56 {
   position: relative;
   letter-spacing: -0.03em;
   line-height: 18px;

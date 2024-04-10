@@ -1,14 +1,14 @@
-.div49,
-.div50 {
+.div46,
+.div47 {
   position: relative;
 }
-.div49 {
+.div46 {
   align-self: stretch;
   font-size: var(--font-size-xl);
   font-weight: 500;
   color: var(--color-greyscale-950);
 }
-.div50 {
+.div47 {
   flex: 1;
 }
 .noise-data3 {
@@ -71,7 +71,7 @@
   font-size: var(--font-size-xl);
   font-family: var(--font-inter);
 }
-.div52 {
+.div49 {
   flex: 1;
   position: relative;
   font-weight: 500;
@@ -147,11 +147,11 @@
   font-family: var(--text-sm-medium);
 }
 @media screen and (max-width: 400px) {
-  .div49 {
+  .div46 {
     font-size: var(--font-size-base);
   }
   .db15,
-  .div50 {
+  .div47 {
     font-size: var(--font-size-smi);
   }
   .number-of-data3 {
