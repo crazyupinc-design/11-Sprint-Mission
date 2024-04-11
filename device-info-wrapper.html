@@ -33,38 +33,5 @@
       </div>
     </div>
 
-    <div id="mapPopupPc" class="popup-overlay" style="display: none">
-      <div class="map-popup-pc">
-        <img class="image-25-icon1" alt="" src="./public/image-25@2x.png" />
-      </div>
-    </div>
-
-    <script>
-      var iconContainer = document.getElementById("iconContainer");
-      if (iconContainer) {
-        iconContainer.addEventListener("click", function () {
-          var popup = document.getElementById("mapPopupPc");
-          if (!popup) return;
-          var popupStyle = popup.style;
-          if (popupStyle) {
-            popupStyle.display = "flex";
-            popupStyle.zIndex = 100;
-            popupStyle.backgroundColor = "rgba(113, 113, 113, 0.3)";
-            popupStyle.alignItems = "center";
-            popupStyle.justifyContent = "center";
-          }
-          popup.setAttribute("closable", "");
-      
-          var onClick =
-            popup.onClick ||
-            function (e) {
-              if (e.target === popup && popup.hasAttribute("closable")) {
-                popupStyle.display = "none";
-              }
-            };
-          popup.addEventListener("click", onClick);
-        });
-      }
-      </script>
   </body>
 </html>
