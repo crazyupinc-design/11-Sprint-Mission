@@ -1,4 +1,4 @@
-.x {
+.x1 {
   width: 40px;
   position: relative;
   line-height: 26px;
@@ -9,7 +9,7 @@
 .y-button,
 .z-button {
   border-radius: var(--br-5xs);
-  background-color: #ffb2b2;
+  background-color: #ef5350;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -17,10 +17,10 @@
 }
 .y-button,
 .z-button {
-  background-color: #b2ffb2;
+  background-color: #26a69a;
 }
 .z-button {
-  background-color: #b2b2ff;
+  background-color: #2962ff;
 }
 .vibration-graph-on-off {
   width: 100%;
@@ -34,11 +34,11 @@
   gap: var(--gap-base);
   text-align: center;
   font-size: var(--font-size-base);
-  color: var(--color-greyscale-900);
+  color: var(--color-greyscale-0);
   font-family: var(--text-sm-medium);
 }
 @media screen and (max-width: 400px) {
-  .x {
+  .x1 {
     font-size: var(--font-size-base);
   }
 }
