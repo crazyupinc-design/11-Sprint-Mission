@@ -15,7 +15,7 @@
   overflow: hidden;
   flex-shrink: 0;
 }
-.link-button16 {
+.link-button15 {
   width: 100%;
   position: relative;
   border-radius: var(--br-11xs);
@@ -42,7 +42,7 @@
   .xxxxx-parent9 {
     flex-direction: column;
   }
-  .link-button16 {
+  .link-button15 {
     padding-left: var(--padding-base);
     padding-right: var(--padding-base);
     box-sizing: border-box;

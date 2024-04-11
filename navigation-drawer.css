@@ -42,7 +42,7 @@
   line-height: 12px;
   font-weight: 500;
 }
-.div54,
+.div50,
 .id-area {
   align-self: stretch;
 }
@@ -54,7 +54,7 @@
   gap: var(--gap-10xs);
   font-size: var(--text-sm-medium-size);
 }
-.div54 {
+.div50 {
   position: relative;
   letter-spacing: -0.03em;
   line-height: 18px;
@@ -68,7 +68,7 @@
   justify-content: flex-start;
   color: var(--color-greyscale-600);
 }
-.div55 {
+.div51 {
   width: 47px;
   position: relative;
   letter-spacing: -0.03em;
@@ -133,7 +133,7 @@
   letter-spacing: -0.02em;
   font-weight: 500;
 }
-.title5,
+.title4,
 .total-number4 {
   display: flex;
   flex-direction: row;
@@ -144,7 +144,7 @@
   align-items: center;
   padding: var(--padding-11xs) 0;
 }
-.title5 {
+.title4 {
   width: 268px;
   align-items: flex-start;
   padding: 0 var(--padding-xs);
@@ -178,7 +178,7 @@
   flex-direction: column;
   gap: var(--gap-5xs);
 }
-.div56 {
+.div52 {
   position: relative;
   letter-spacing: -0.03em;
   line-height: 18px;
@@ -252,7 +252,7 @@
   .device-total-number2 {
     font-size: var(--font-size-base);
   }
-  .title5 {
+  .title4 {
     padding-left: 0;
     padding-right: 0;
     box-sizing: border-box;
