@@ -1,14 +1,14 @@
-.div46,
-.div47 {
+.div42,
+.div43 {
   position: relative;
 }
-.div46 {
+.div42 {
   align-self: stretch;
   font-size: var(--font-size-xl);
   font-weight: 500;
   color: var(--color-greyscale-950);
 }
-.div47 {
+.div43 {
   flex: 1;
 }
 .noise-data3 {
@@ -71,7 +71,7 @@
   font-size: var(--font-size-xl);
   font-family: var(--font-inter);
 }
-.div49 {
+.div45 {
   flex: 1;
   position: relative;
   font-weight: 500;
@@ -102,7 +102,7 @@
   overflow: hidden;
   flex-shrink: 0;
 }
-.link-button13 {
+.link-button12 {
   align-self: stretch;
   border-radius: var(--br-11xs);
   background-color: var(--brand);
@@ -147,11 +147,11 @@
   font-family: var(--text-sm-medium);
 }
 @media screen and (max-width: 400px) {
-  .div46 {
+  .div42 {
     font-size: var(--font-size-base);
   }
   .db15,
-  .div47 {
+  .div43 {
     font-size: var(--font-size-smi);
   }
   .number-of-data3 {
@@ -167,7 +167,7 @@
     flex-direction: column;
   }
   .device-list4,
-  .link-button13 {
+  .link-button12 {
     padding-left: var(--padding-base);
     padding-right: var(--padding-base);
     box-sizing: border-box;
