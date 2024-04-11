@@ -23,6 +23,7 @@
 .x-value-wrapper,
 .y-db-value-wrapper {
   border-radius: var(--br-5xs);
+  min-width: 360px;
 }
 .vibration-value {
   width: 100%;
