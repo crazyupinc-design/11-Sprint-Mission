@@ -3,29 +3,29 @@
   font-weight: 500;
 }
 .notification-settings,
-.title3 {
+.title2 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
   padding: var(--padding-11xs) 0;
 }
-.title3 {
+.title2 {
   align-self: stretch;
   padding: 0 var(--padding-11xs);
 }
-.text2 {
+.text1 {
   flex: 1;
   position: relative;
 }
-.info-title2,
+.info-title1,
 .title-wrapper {
   align-self: stretch;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.info-title2 {
+.info-title1 {
   flex-direction: row;
   padding: var(--padding-11xs);
   font-size: var(--font-size-base);
@@ -40,7 +40,7 @@
   width: 16px;
   height: 16px;
 }
-.text3 {
+.text2 {
   width: 45px;
   position: relative;
   line-height: 20px;
@@ -66,7 +66,7 @@
   padding: var(--padding-7xs) var(--padding-11xl);
   box-sizing: border-box;
 }
-.text4 {
+.text3 {
   width: 43px;
   position: relative;
   letter-spacing: 0.3em;
@@ -84,7 +84,7 @@
   font-size: var(--text-sm-medium-size);
   color: var(--color-greyscale-800);
 }
-.main3 {
+.main2 {
   width: 100%;
   flex: 1;
   overflow: hidden;
@@ -94,7 +94,7 @@
   gap: var(--gap-13xl);
   max-width: 1400px;
 }
-.main3,
+.main2,
 .system-management,
 .system-management-content {
   display: flex;
@@ -118,16 +118,16 @@
   font-family: var(--text-sm-medium);
 }
 @media screen and (max-width: 526px) {
-  .title3 {
+  .title2 {
     padding-left: 0;
     padding-top: 0;
     padding-right: var(--padding-21xl);
     box-sizing: border-box;
   }
-  .text2 {
+  .text1 {
     text-align: left;
   }
-  .main3 {
+  .main2 {
     padding-left: var(--padding-5xl);
     padding-right: var(--padding-5xl);
     box-sizing: border-box;
@@ -137,16 +137,16 @@
   .notification-settings1 {
     font-size: var(--font-size-base);
   }
-  .title3 {
+  .title2 {
     padding-left: 0;
     padding-right: 0;
     box-sizing: border-box;
   }
-  .text2 {
+  .text1 {
     font-size: var(--font-size-smi);
     text-align: left;
   }
-  .main3 {
+  .main2 {
     padding-left: var(--padding-5xl);
     padding-top: var(--padding-xl);
     padding-right: var(--padding-5xl);

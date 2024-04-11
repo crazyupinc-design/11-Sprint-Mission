@@ -1,0 +1,44 @@
+.x {
+  width: 40px;
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.x-button,
+.y-button,
+.z-button {
+  border-radius: var(--br-5xs);
+  background-color: #ffb2b2;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.y-button,
+.z-button {
+  background-color: #b2ffb2;
+}
+.z-button {
+  background-color: #b2b2ff;
+}
+.vibration-graph-on-off {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-greyscale-900);
+  font-family: var(--text-sm-medium);
+}
+@media screen and (max-width: 400px) {
+  .x {
+    font-size: var(--font-size-base);
+  }
+}

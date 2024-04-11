@@ -1,0 +1,42 @@
+.minimum {
+  width: 40px;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.data17,
+.minimum {
+  position: relative;
+  line-height: 26px;
+}
+.data-wrapper1 {
+  align-items: center;
+  gap: var(--gap-10xs);
+}
+.data-wrapper1,
+.noise-db-value,
+.noise-db-value-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.noise-db-value-wrapper {
+  border-radius: var(--br-5xs);
+  align-items: center;
+  padding: 0 var(--padding-5xs);
+}
+.noise-db-value {
+  width: 100%;
+  position: relative;
+  align-items: flex-start;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--brand);
+  font-family: var(--text-sm-medium);
+}
+@media screen and (max-width: 400px) {
+  .data17,
+  .minimum {
+    font-size: var(--font-size-smi);
+  }
+}
